@@ -213,7 +213,9 @@ Löytyi avoin portti 6379. Komennolla `redis-cli 10.129.46.101` tuli kuitenkin v
 
 <img width="554" height="104" alt="image" src="https://github.com/user-attachments/assets/4456c1db-149d-45a2-9678-a4ab4cd78f9d" />
 
-Perehdyin komentoihin [täältä](https://redis.io/docs/latest/operate/rs/references/cli-utilities/redis-cli/). Hahmottelin komennoksi `redis-cli -h 10.129.46.101`
+Perehdyin komentoihin [täältä](https://redis.io/docs/latest/operate/rs/references/cli-utilities/redis-cli/). Ilman tuota -h parametria redis-cli ei tulkitse IP-osoitetta hostiksi.
+
+Oikea komento on siis `redis-cli -h 10.129.46.101`
 
 <img width="361" height="79" alt="image" src="https://github.com/user-attachments/assets/5691082d-9fd7-4ebe-8b51-66e4f90326a1" />
 
