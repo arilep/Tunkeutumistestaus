@@ -115,7 +115,9 @@ Nmap done: 1 IP address (1 host up) scanned in 1.87 seconds
 
 <img width="636" height="145" alt="image" src="https://github.com/user-attachments/assets/687f8714-d89a-41bf-8dc0-0269d34bedc2" />
 
--A: Laajempi skannaus ottaa mukaan seuraavat: OS detection, version detection, script scanning, traceroute.
+Perehdyin tämän parametrin tietoihin Nmap:in [manuaalisivuilta](https://nmap.org/book/man.html).
+
+-A: OS detection (pyrkii tunnistamaan kohdekäyttöjärjestelmän), version detection (vertaa portin kautta saatuja tietoja Nmapin tietokantaan ja pyrkii tunnistamaan palvelun version), script scanning (ajaa Nmapin omia NSE-skriptejä), traceroute (hakee verkon reitin kohteeseen).
 
 ## d) d) Asenna kaksi vapaavalintaista demonia ja skannaa uudelleen. Analysoi ja selitä erot.
 
@@ -146,7 +148,7 @@ Aloitin tekemällä porttiskannauksen `nmap -T4 -A 10.129.46.89`
 
 <img width="790" height="623" alt="image" src="https://github.com/user-attachments/assets/66398f96-c607-4fe3-b699-5952c3c38b54" />
 
-Otetaan yhteys FTP-palvelimeen komennolla `ftp 10.129.46.89` ja kirjaudutaan sisään käyttäjänä 'Anonymous'. Kirjautuminen onnistuu ilman salasanaa (230 login succesful):
+Otetaan yhteys FTP-palvelimeen komennolla `ftp 10.129.46.89` ja kirjaudutaan sisään käyttäjänä 'Anonymous'. Kirjautuminen onnistuu ilman salasanaa (230 login successful):
 
 <img width="333" height="200" alt="image" src="https://github.com/user-attachments/assets/68affd9c-9e1e-4142-a3c4-5aa3de55baae" />
 
@@ -245,7 +247,13 @@ Kali.org. kali-platforms. https://www.kali.org/get-kali/#kali-platforms
 
 Karvinen, T. 22.3.2026. Tunkeutumistestaus. https://terokarvinen.com/tunkeutumistestaus/
 
-Nmap.org. Nmap Reference Guide. https://nmap.org/book/man-performance.html
+Nmap.org. Nmap Reference Guide. https://nmap.org/book/man.html
+
+Nmap.org. Service and Version Detection. https://nmap.org/book/man-version-detection.html
+
+Nmap.org. Timing and Performance. https://nmap.org/book/man-performance.html
+
+Nmap.org. Usage and Examples. https://nmap.org/book/nse-usage.html
 
 nixCraft. Ubuntu Linux install OpenSSH server. https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/
 
