@@ -1,5 +1,7 @@
 ### h1 Kybertappoketju [tehtävänanto](https://terokarvinen.com/tunkeutumistestaus/#h1-kybertappoketju)
 
+Update 2026-03-29: siistitty d) ja e) tehtävänannoista näppäilyvirheet.
+
 ## Tehtävissä käytetty ympäristö
 
 ### PC
@@ -119,7 +121,7 @@ Perehdyin tämän parametrin tietoihin Nmap:in [manuaalisivuilta](https://nmap.o
 
 -A: OS detection (pyrkii tunnistamaan kohdekäyttöjärjestelmän), version detection (vertaa portin kautta saatuja tietoja Nmapin tietokantaan ja pyrkii tunnistamaan palvelun version), script scanning (ajaa Nmapin omia NSE-skriptejä), traceroute (hakee verkon reitin kohteeseen).
 
-## d) d) Asenna kaksi vapaavalintaista demonia ja skannaa uudelleen. Analysoi ja selitä erot.
+## d) Asenna kaksi vapaavalintaista demonia ja skannaa uudelleen. Analysoi ja selitä erot.
 
 apache2 ja openssh-server olivat jo valmiiksi asennettuina:
 
@@ -137,7 +139,7 @@ Uudessa porttiskannauksessa näkyy nyt avoinna olevat portit 22 (ssh) ja 80 (htt
 
 <img width="807" height="383" alt="image" src="https://github.com/user-attachments/assets/dff6f5fd-bacc-473b-b63b-d8f34837a096" />
 
-## e) e) Ratkaise vapaavalintainen kone HackTheBoxista. Omalle tasolle sopiva, useimmille varmaan Starting Pointista. Valitse kone, jota et ole ratkaissut vielä. Ei tunnilla näytetty Meow. (Propellihatuille: jos teet vaikeampia ei-starting-point koneita, niin retired tai vastaava kone, josta saa julkaista writeupin).
+## e) Ratkaise vapaavalintainen kone HackTheBoxista. Omalle tasolle sopiva, useimmille varmaan Starting Pointista. Valitse kone, jota et ole ratkaissut vielä. Ei tunnilla näytetty Meow. (Propellihatuille: jos teet vaikeampia ei-starting-point koneita, niin retired tai vastaava kone, josta saa julkaista writeupin).
 
 Tein järjestyksessä kolme seuraavaa konetta, vastaukset alla:
 
