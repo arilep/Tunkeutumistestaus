@@ -329,6 +329,8 @@ Dora Regulation. https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
 
 Karvinen, T. 22.3.2026. Tunkeutumistestaus. https://terokarvinen.com/tunkeutumistestaus/
 
+Rapid7. Download Metasploitable. https://www.rapid7.com/products/metasploit/metasploitable/
+
 Nist. CVE-2007-2447 Detail. https://nvd.nist.gov/vuln/detail/CVE-2007-2447
 
 Nmap.org. Script smb-security-mode. https://nmap.org/nsedoc/scripts/smb-security-mode.html
